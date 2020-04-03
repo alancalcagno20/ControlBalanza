@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlDePeso", "ControlDePeso.csproj", "{0FD3783E-D5F1-458C-8AC8-0DA624F0737B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlDePeso.Tests", "..\ControlDePeso.Tests\ControlDePeso.Tests.csproj", "{EA22D926-3705-4754-B3A7-DA39803D6EEC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FD3783E-D5F1-458C-8AC8-0DA624F0737B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FD3783E-D5F1-458C-8AC8-0DA624F0737B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FD3783E-D5F1-458C-8AC8-0DA624F0737B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FD3783E-D5F1-458C-8AC8-0DA624F0737B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA22D926-3705-4754-B3A7-DA39803D6EEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA22D926-3705-4754-B3A7-DA39803D6EEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA22D926-3705-4754-B3A7-DA39803D6EEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA22D926-3705-4754-B3A7-DA39803D6EEC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6581D4C9-B672-4B41-A655-B741685FCFCA}
+	EndGlobalSection
+EndGlobal
