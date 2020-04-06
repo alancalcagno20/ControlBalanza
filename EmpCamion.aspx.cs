@@ -13,5 +13,15 @@ namespace ControlDePeso
         {
 
         }
+
+        protected void BTN_EMP_CAMION_Click(object sender, EventArgs e)
+        {
+            //if ("Los datos son validos") {
+            //    Cargarlos en la DB
+            Response.Redirect("Ingreso.aspx");
+            //}
+            //else
+            //    Mensajes de error
+        }
     }
 }

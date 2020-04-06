@@ -3,6 +3,7 @@
     <br /><br />
     <h1>Empadronamiento de Chofer</h1>
     <br /><br />
+    <div class="jumbotron">
     <div class="row">
         <div class="col-md-2">
             <asp:Label ID="MSJ_DNI" runat="server" Text="DNI:"></asp:Label>
@@ -42,7 +43,8 @@
         <div class="col-md-10">
             <asp:TextBox ID="TXT_SEGURO" runat="server"></asp:TextBox>
         </div>
+    </div>
     </div><br /><br />
-    <asp:Button ID="BTN_EMP_CHOFER" runat="server" Text="Empadronar" />
+    <asp:Button ID="BTN_EMP_CHOFER" runat="server" Text="Empadronar" OnClick="BTN_EMP_CHOFER_Click" />
 
 </asp:Content>

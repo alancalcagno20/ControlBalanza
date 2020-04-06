@@ -1,7 +1,9 @@
-﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Inicio.aspx.cs" Inherits="ControlDePeso._Default" %>
+﻿<%@ Page Title="Ingreso" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Ingreso.aspx.cs" Inherits="ControlDePeso._Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-
+    <br /><br />
+    <h1>Inicio</h1>
+    <br /><br />
     <div class="jumbotron">
         <div class="row">
             <div class="col-md-2">
@@ -11,7 +13,8 @@
                 <asp:TextBox ID="TXT_PATENTE" runat="server" MaxLength="7" ToolTip="patente del camion"></asp:TextBox>&nbsp
                 <asp:Button ID="BTN_VAL_PAT" runat="server" Text="Validar" OnClick="BTN_VAL_PAT_Click" />&nbsp  
                 <asp:Label ID="MSG_VAL_PAT" runat="server" EnableTheming="True" Text="..."></asp:Label>&nbsp
-                <asp:RequiredFieldValidator ID="VAL_PAT" runat="server" ControlToValidate="TXT_PATENTE" ErrorMessage="RequiredFieldValidator" Enabled="False">Completar patente</asp:RequiredFieldValidator>
+                <!--<asp:RequiredFieldValidator ID="VAL_PAT" runat="server" ControlToValidate="TXT_PATENTE" ErrorMessage="RequiredFieldValidator" Enabled="False">Completar patente</asp:RequiredFieldValidator>
+                -->
             </div>           
             <br /><br />
         </div>
@@ -71,11 +74,7 @@
             <div class="col-md-10">
                 NUMERO DE LOTE: <asp:TextBox ID="TXT_NLOTE3" runat="server" Columns="5"></asp:TextBox>
             </div>            
-        </div><br /><br /><br />
-        <!-- Botones para pruevas -->
-        <p> Botones para pruevas </p>
-        <a id="BTN_EMP_CAMION" href="EmpCamion" class="btn btn-default btn-lg">emp camion &raquo;</a>
-        <a id="BTN_EMP_CHOFER" href="EmpChofer" class="btn btn-default btn-lg">emp chofer &raquo;</a>
-        <a id="BTN_PESAJE" href="Pesaje" class="btn btn-default btn-lg">pesaje &raquo;</a>
+        </div><br /><br />
+        <asp:Button ID="BTN_PESAJE" runat="server" Text="Pesar" OnClick="BTN_PESAJE_Click" />
 </div>
 </asp:Content>

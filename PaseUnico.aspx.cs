@@ -7,16 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace ControlDePeso
 {
-    public partial class Pesaje : System.Web.UI.Page
+    public partial class PaseUnico : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
-        }
-
-        protected void BTN_VALIDAR_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("PaseUnico.aspx");
         }
     }
 }

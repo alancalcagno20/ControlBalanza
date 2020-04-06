@@ -3,6 +3,7 @@
     <br /><br />
     <h1>Pesaje</h1>
     <br /><br />
+    <div class="jumbotron">
     <div class="row">
         <div class="col-md-2">
             <asp:Label ID="MSJ_PAT1" runat="server" Text="PATENTE:"></asp:Label>
@@ -26,7 +27,8 @@
         <div class="col-md-10">
             <asp:Label ID="LAB_ADVERTENCIAS" runat="server" Text="?"></asp:Label>
         </div>
+    </div>
     </div><br /><br />
     <!-- Codigo en base al numero de ejes -->
-    <asp:Button ID="BTN_INGRESO" runat="server" Text="Ingreso"  />
+    <asp:Button ID="BTN_VALIDAR" runat="server" Text="Validar" OnClick="BTN_VALIDAR_Click"  />
 </asp:Content>

@@ -124,7 +124,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="EmpChofer.aspx" />
-    <Content Include="Inicio.aspx" />
+    <Content Include="Ingreso.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -138,6 +138,7 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="EmpCamion.aspx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="PaseUnico.aspx" />
     <Content Include="Pesaje.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -184,15 +185,22 @@
     <Compile Include="EmpChofer.aspx.designer.cs">
       <DependentUpon>EmpChofer.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Inicio.aspx.cs">
-      <DependentUpon>Inicio.aspx</DependentUpon>
+    <Compile Include="Ingreso.aspx.cs">
+      <DependentUpon>Ingreso.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Inicio.aspx.designer.cs">
-      <DependentUpon>Inicio.aspx</DependentUpon>
+    <Compile Include="Ingreso.aspx.designer.cs">
+      <DependentUpon>Ingreso.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="PaseUnico.aspx.cs">
+      <DependentUpon>PaseUnico.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PaseUnico.aspx.designer.cs">
+      <DependentUpon>PaseUnico.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pesaje.aspx.cs">
       <DependentUpon>Pesaje.aspx</DependentUpon>
