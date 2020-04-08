@@ -11,14 +11,15 @@ namespace ControlDePeso
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            TXT_EMP_DNI.Text = (string)Application["dni"];
         }
 
         protected void BTN_EMP_CHOFER_Click(object sender, EventArgs e)
         {
             //if ("Los datos son validos") {
             //    Cargarlos en la DB
-                Response.Redirect("Ingreso.aspx");
+            Application["val_dni"] = true;
+            Response.Redirect("Ingreso.aspx");
             //}
             //else
             //    Mensajes de error

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Ingreso" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Ingreso.aspx.cs" Inherits="ControlDePeso._Default" %>
+﻿<%@ Page Title="Ingreso" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Ingreso.aspx.cs" Inherits="ControlDePeso.Ingreso" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <br /><br />
@@ -10,11 +10,10 @@
                 <asp:Label ID="MSG_PAT" runat="server" Text="PATENTE"></asp:Label>
             </div>
             <div class="col-md-10">
-                <asp:TextBox ID="TXT_PATENTE" runat="server" MaxLength="7" ToolTip="patente del camion"></asp:TextBox>&nbsp
+                <asp:TextBox ID="TXT_PAT" runat="server" MaxLength="7" ToolTip="patente del camion"></asp:TextBox>&nbsp
                 <asp:Button ID="BTN_VAL_PAT" runat="server" Text="Validar" OnClick="BTN_VAL_PAT_Click" />&nbsp  
                 <asp:Label ID="MSG_VAL_PAT" runat="server" EnableTheming="True" Text="..."></asp:Label>&nbsp
-                <!--<asp:RequiredFieldValidator ID="VAL_PAT" runat="server" ControlToValidate="TXT_PATENTE" ErrorMessage="RequiredFieldValidator" Enabled="False">Completar patente</asp:RequiredFieldValidator>
-                -->
+                
             </div>           
             <br /><br />
         </div>
@@ -26,8 +25,7 @@
                 <asp:TextBox ID="TXT_DNI" runat="server" MaxLength="8"></asp:TextBox>&nbsp
                 <asp:Button ID="BTN_VAL_DNI" runat="server" Text="Validar" OnClick="BTN_VAL_DNI_Click" />&nbsp
                 <asp:Label ID="MSG_VAL_DNI" runat="server" EnableTheming="True">...</asp:Label>&nbsp
-                <!--<asp:RequiredFieldValidator ID="VAL_DNI" runat="server" ControlToValidate="TXT_DNI" ErrorMessage="RequiredFieldValidator">Completar DNI</asp:RequiredFieldValidator>
-                -->
+                
             </div>
             <br /><br />
         </div>
@@ -75,6 +73,6 @@
                 NUMERO DE LOTE: <asp:TextBox ID="TXT_NLOTE3" runat="server" Columns="5"></asp:TextBox>
             </div>            
         </div><br /><br />
-        <asp:Button ID="BTN_PESAJE" runat="server" Text="Pesar" OnClick="BTN_PESAJE_Click" />
+        <asp:Button ID="BTN_PESAJE" runat="server" Text="Pesar" OnClick="BTN_PESAJE_Click" Enabled="False" />
 </div>
 </asp:Content>

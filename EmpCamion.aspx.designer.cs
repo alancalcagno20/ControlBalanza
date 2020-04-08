@@ -11,7 +11,7 @@ namespace ControlDePeso
 {
 
 
-    public partial class WebForm1
+    public partial class EmpCamion
     {
 
         /// <summary>

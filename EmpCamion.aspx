@@ -1,7 +1,7 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="EmpCamion.aspx.cs" Inherits="ControlDePeso.WebForm1" %>
+﻿<%@ Page Title="Emp. Camión" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="EmpCamion.aspx.cs" Inherits="ControlDePeso.EmpCamion" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <br /><br />
-    <h1>Empadronamiento de Camión</h1>
+    <h1>Empadronamiento del Camión</h1>
     <br /><br />
     <div class="jumbotron">
     <div class="row">

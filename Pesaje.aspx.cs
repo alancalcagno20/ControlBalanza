@@ -11,8 +11,12 @@ namespace ControlDePeso
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            LAB_PAT.Text = (string)Application["patente"];
 
+            //Fijar el tipo de camion
         }
+
+        //Registro del peso de cada eje
 
         protected void BTN_VALIDAR_Click(object sender, EventArgs e)
         {

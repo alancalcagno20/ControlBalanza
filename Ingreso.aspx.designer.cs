@@ -11,7 +11,7 @@ namespace ControlDePeso
 {
 
 
-    public partial class _Default
+    public partial class Ingreso
     {
 
         /// <summary>
@@ -24,13 +24,13 @@ namespace ControlDePeso
         protected global::System.Web.UI.WebControls.Label MSG_PAT;
 
         /// <summary>
-        /// Control TXT_PATENTE.
+        /// Control TXT_PAT.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TXT_PATENTE;
+        protected global::System.Web.UI.WebControls.TextBox TXT_PAT;
 
         /// <summary>
         /// Control BTN_VAL_PAT.
@@ -49,15 +49,6 @@ namespace ControlDePeso
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label MSG_VAL_PAT;
-
-        /// <summary>
-        /// Control VAL_PAT.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator VAL_PAT;
 
         /// <summary>
         /// Control Label1.
@@ -94,15 +85,6 @@ namespace ControlDePeso
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label MSG_VAL_DNI;
-
-        /// <summary>
-        /// Control VAL_DNI.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator VAL_DNI;
 
         /// <summary>
         /// Control Label2.
