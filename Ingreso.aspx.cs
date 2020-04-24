@@ -5,12 +5,16 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
+
 namespace ControlDePeso
 {
     public partial class Ingreso : System.Web.UI.Page
     {
         private bool val_pat = false;
         private bool val_dni = false;
+
+        
+
 
         /*
         protected void Page_PreInit(object sender, EventArgs e)
