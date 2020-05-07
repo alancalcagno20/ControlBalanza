@@ -4,6 +4,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.29920.165
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlDePeso", "ControlDePeso.csproj", "{0FD3783E-D5F1-458C-8AC8-0DA624F0737B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4CCD9152-50DA-47A1-8EE0-9F09D118293E} = {4CCD9152-50DA-47A1-8EE0-9F09D118293E}
+		{3B3EDCCB-7860-45F3-AD06-0CA00540C5B6} = {3B3EDCCB-7860-45F3-AD06-0CA00540C5B6}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebService.Data", "..\WebService.Data\WebService.Data.csproj", "{D6CBD6D3-08C3-470D-88B5-5D316497EA0D}"
 EndProject
